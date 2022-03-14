@@ -1,0 +1,22 @@
+{
+  "name": "SemanaJSExpert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Prg-maker <df3296709@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "7.8.0",
+    "pino-pretty": "7.5.3"
+  }
+}
