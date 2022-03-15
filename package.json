@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node server/index.js",
-    "live-reload": "nodemon server/index.js"
+    "dev": "nodemon server/index.js"
   },
   "type": "module",
   "engines": {
