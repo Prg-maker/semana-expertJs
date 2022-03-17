@@ -14,6 +14,7 @@ const publicDirectory = join(root, 'public')
 export default  {
   port: process.env.PORT || 3000,
   dir:{ 
+    
     root,
     audioDirectory,
     publicDirectory,
@@ -21,10 +22,18 @@ export default  {
     fxDirectory: join(audioDirectory , 'fx'),
   },
   pages: {
-    htmlHTML: 'home/index.html',
-    controllerTML: 'home/index.html',
+    homeHTML: 'home/index.html',
+    controllerTML: 'home/index.html', 
   },
   location:{
     home: '/home'
+  },
+  constants: {
+    CONTENT_TYPE:{
+      '.html': 'text/html',
+      '.css': 'text/css',
+      '.js': 'text/javascript',
+
+    }
   }
 }
