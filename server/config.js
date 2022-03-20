@@ -23,7 +23,7 @@ export default  {
   },
   pages: {
     homeHTML: 'home/index.html',
-    controllerTML: 'home/index.html', 
+    controllerTML: 'controller/index.html', 
   },
   location:{
     home: '/home'
